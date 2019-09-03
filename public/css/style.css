@@ -1,0 +1,188 @@
+/*Generales*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@font-face{
+    font-family:fgb;
+    font-display:swap;
+    src:url(../font/AbadiMTCondensed.ttf)
+}
+
+.font-fgb{
+    font-family: fgb;
+}
+.font-body{
+    font-family: 'Open Sans', sans-serif;
+}
+.info-nav{
+    height: 60px;
+    background-color: white;
+}
+.circle{
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.redes-circle{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #141939;
+}
+.redes-circle.contact{
+    border: 1px solid white;
+}
+.circle i{
+    margin-top: 12px;
+    font-size: 15px;
+    color: #141939;
+}
+.circle i.contact{
+    color: white;
+}
+.azul-text{
+    color: #141939 !important;
+}
+.azul{
+    background-color: #141939 !important;
+}
+.slider .indicators .indicator-item.active{
+    background-color: #141939;
+}
+.margin-bottom0{
+    margin-bottom: 0 !important;
+}
+.marcas{
+    background-image: url(../images/marcas.png);
+    background-size: cover;
+}
+.carousel{
+    height: 300px;
+}
+.dropdown-content li>a{
+    color: #141939 !important;
+}
+.contact-image{
+    background-image: url(../images/contact.png);
+    background-size: cover;
+    height: 350px;
+}
+.input-field input[type=text],
+.input-field input[type=tel],
+.input-field input[type=email],
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input.valid[type=text]:not(.browser-default),
+input.valid[type=tel]:not(.browser-default),
+input.valid[type=email]:not(.browser-default){
+    border: none;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+    height: 50px;
+    background-color: white;
+}
+
+textarea.materialize-textarea,
+textarea.materialize-textarea:focus:not([readonly]){
+    border: none;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+input.invalid[type=text]:not(.browser-default),
+input.invalid[type=tel]:not(.browser-default),  
+input.invalid[type=email]:not(.browser-default){
+    border-bottom: 1px solid red;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+    height: 50px;
+    background-color: white;
+}
+.contalog-image{
+    height: 350px;
+    background-image: url(../images/catalog.png);
+    background-size: cover;
+}
+/*Catalogo*/
+.hilti{
+    background-image: url(../images/Catalogo/Hilti.png);
+    background-size: cover;
+}
+/*Exclusivos movil*/
+.container90{
+    margin:0 auto;
+    max-width:1280px;
+    width:90%
+}
+.info-nav p{
+    display: none;
+}
+.marcas-img{
+    width: 200px;
+    height: 200px;
+}
+.bgs{
+    background-image: url(../images/bgs1.png);
+}
+.urrea{
+    background-image: url(../images/urrea1.png);
+}
+.tuk{
+    background-image: url(../images/tuk1.png);
+}
+.knipex{
+    background-image: url(../images/knipex1.png);
+}
+.colson{
+    background-image: url(../images/colson1.png);
+}
+/*Exclusivos tablet*/
+@media only screen and (min-width: 601px){
+    .container90{
+        width:90%
+    }
+    .info-nav p{
+        display: block;
+        margin-top: 18px;
+        color: #141939;
+    }
+    .carousel .bgs:hover{
+        background-image: url(../images/bgs.png);
+        transition: .3s;
+    }
+    .carousel .urrea:hover{
+        background-image: url(../images/urrea.png);
+        transition: .3s;
+    }
+    .carousel .tuk:hover{
+        background-image: url(../images/tuk.png);
+        transition: .3s;
+    }
+    .carousel .knipex:hover{
+        background-image: url(../images/knipex.png);
+        transition: .3s;
+    }
+    .carousel .colson:hover{
+        background-image: url(../images/colson.png);
+        transition: .3s;
+    }
+    .container-contact{
+        height: 550px;
+    }
+}
+/*Exclusivos pc*/
+@media only screen and (min-width: 993px){
+    .container90{
+        width:90%
+    }
+    .circle:hover{
+        background-color: #141939;
+    }
+    
+    .circle:hover i{
+        color: white;
+    }
+}
