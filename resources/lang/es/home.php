@@ -12,6 +12,34 @@ return [
     'oferta' => 'Nuestra oferta',
     'siguenos' => 'Síguenos',
     'ver_mas' => 'Ver más',
-    'entre_otros' => 'Entre muchos más...'
+    'entre_otros' => 'Entre muchos más...',
+
+    'Oferta1'=>'HERRAMIENTA PARA CORTE DE METALES',
+    'Oferta2'=>'HERRAMIENTA DE SUJECION',
+    'Oferta3'=>'INSTRUMENTOS DE MEDICION',
+    'Oferta4'=>'EQUIPO DE TALLER',
+    'Oferta5'=>'HERRAMIENTA ELECTRICA',
+    'Oferta6'=>'MAQUINARIA EN GENERAL',
+    'Oferta7'=>'REFACCIONES Y LLANTAS',
+    'Oferta8'=>'EQUIPO DE LIMPIEZA',
+    'Oferta9'=>'CONSUMIBLES',
+    'Oferta10'=>'ADHESIVOS',
+    'Oferta11'=>'TORNILLERÍA',
+    'Oferta12'=>'ABRASIVOS',
+    'Oferta13'=>'SEÑALAMIENTOS',
+    'Oferta14'=>'CONTENEDORES',
+    'Oferta15'=>'LUMINARIA Y MATERIAL ELECTRICO',
+
+    //Catalogo
+
+    //Contacto
+
+    'form-nombre'=>'Nombre',
+    'form-tel'=>'Telefóno',
+    'form-mail'=>'E-mail',
+    'form-msg'=>'Mensaje',
+    'form-enviar'=>'Enviar',
+    'form-redes'=>'Redes sociales',
+    'form-contacto'=>'Póngase en contacto',
 
 ];

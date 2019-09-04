@@ -85,67 +85,67 @@
         <div class="col m4 s12">
             <h6 class="font-body">
                 <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                HERRAMIENTA PARA CORTE DE METALES
+                @lang('home.Oferta1')
             </h6>
             <h6 class="font-body">
                 <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                HERRAMIENTA DE SUJECION
+                @lang('home.Oferta2')
             </h6>
             <h6 class="font-body">
                 <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                INSTRUMENTOS DE MEDICION
+                @lang('home.Oferta3')
             </h6>
             <h6 class="font-body">
                 <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                EQUIPO DE TALLER
+                @lang('home.Oferta4')
             </h6>
             <h6 class="font-body">
                 <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                HERRAMIENTA ELECTRICA
-            </h6>
-        </div>
-        <div class="col m4 s12">
-            <h6 class="font-body">
-                <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                MAQUINARIA EN GENERAL 
-            </h6>
-            <h6 class="font-body">
-                <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                REFACCIONES Y LLANTAS
-            </h6>
-            <h6 class="font-body">
-                <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                EQUIPO DE LIMPIEZA
-            </h6>
-            <h6 class="font-body">
-                <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                CONSUMIBLES
-            </h6>
-            <h6 class="font-body">
-                <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                ADHESIVOS 
+                @lang('home.Oferta5')
             </h6>
         </div>
         <div class="col m4 s12">
             <h6 class="font-body">
                 <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                TORNILLERÍA 
+                @lang('home.Oferta6')
             </h6>
             <h6 class="font-body">
                 <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                ABRASIVOS 
+                @lang('home.Oferta7')
             </h6>
             <h6 class="font-body">
                 <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                SEÑALAMIENTOS 
+                @lang('home.Oferta8')
             </h6>
             <h6 class="font-body">
                 <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                CONTENEDORES
+                @lang('home.Oferta9')
             </h6>
             <h6 class="font-body">
                 <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
-                LUMINARIA Y MATERIAL ELECTRICO
+                @lang('home.Oferta10')
+            </h6>
+        </div>
+        <div class="col m4 s12">
+            <h6 class="font-body">
+                <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
+                @lang('home.Oferta11')
+            </h6>
+            <h6 class="font-body">
+                <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
+                @lang('home.Oferta12')
+            </h6>
+            <h6 class="font-body">
+                <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
+                @lang('home.Oferta13')
+            </h6>
+            <h6 class="font-body">
+                <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
+                @lang('home.Oferta14')
+            </h6>
+            <h6 class="font-body">
+                <img src="{{URL::asset('images/favicon.png')}}" width="15" alt="">
+                @lang('home.Oferta15')
             </h6>
         </div>
     </div>

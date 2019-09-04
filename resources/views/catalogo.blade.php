@@ -10,83 +10,61 @@
     <div style="height:50px"></div>
     <div class="container90">
         <div class="row">
-            <div class="col m4 s12">
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header"><span class="azul-text font-body">Hilti</span></div>
-                        <div class="collapsible-body hilti"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
+            <div class="col m3">
+                <div class="container90">
+                    <div class="row">
+                        <div class="card white darken-1">
+                            <div class="card-content">
+                                <div class="center">
+                                    <img src="{{URL::asset('/images/catalogo/bgs.png')}}"  class="responsive-img" alt="">
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <a style="cursor:pointer" onclick="myFunction(event,'bgs1')" class="azul-text font-body"><i class="far fa-file-pdf"></i> Ver catalogos</a>
+                            </div>
+                            <div id="bgs1" style="padding:10px; display:none">
+                                <a href="#" class="azul-text"><i class="far fa-file-pdf"></i> Ver catalogos</a>
+                                <br>
+                                <a href="#" class="azul-text"><i class="far fa-file-pdf"></i> Ver catalogos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col m4">
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header hilti"><span class="azul-text font-body">Hilti</span></div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
+            <div class="col m3">
+                <div class="container90">
+                    <div class="row">
+                        <div class="card white darken-1">
+                            <div class="card-content">
+                                <div class="center">
+                                    <img src="{{URL::asset('/images/catalogo/bgs.png')}}"  class="responsive-img" alt="">
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <a style="cursor:pointer" onclick="myFunction(event,'bgs')" class="azul-text font-body"><i class="far fa-file-pdf"></i> Ver catalogos</a>
+                            </div>
+                            <div id="bgs" style="padding:10px; display:none">
+                                <a href="#" class="azul-text"><i class="far fa-file-pdf"></i> Ver catalogos</a>
+                                <br>
+                                <a href="#" class="azul-text"><i class="far fa-file-pdf"></i> Ver catalogos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col m4">
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header hilti"><span class="azul-text font-body">Hilti</span></div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col m4 s12">
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header hilti"><span class="azul-text font-body">Hilti</span></div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
-            </div>
-            <div class="col m4">
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header hilti"><span class="azul-text font-body">Hilti</span></div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
-            </div>
-            <div class="col m4">
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header hilti"><span class="azul-text font-body">Hilti</span></div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col m4 s12">
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header hilti"><span class="azul-text font-body">Hilti</span></div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
-            </div>
-            <div class="col m4">
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header hilti"><span class="azul-text font-body">Hilti</span></div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
-            </div>
-            <div class="col m4">
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header hilti"><span class="azul-text font-body">Hilti</span></div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
-            </div>
+            <div class="col m3"></div>
+            <div class="col m3"></div>
         </div>
     </div>
 </div>
+<script>
+    function myFunction(event,marca) {
+    var x = document.getElementById(marca);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
 @endsection

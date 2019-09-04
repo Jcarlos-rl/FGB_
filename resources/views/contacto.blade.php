@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col m12 s4">
                         <br class="hide-on-small-only">
-                        <h6 class="white-text font-body hide-on-small-only">Redes sociales</h6>
+                        <h6 class="white-text font-body hide-on-small-only">@lang('home.form-redes')</h6>
                         <hr class="hide-on-small-only" style="border: 1px solid #fff">
                         <br>
                         <div class="row">
@@ -28,7 +28,7 @@
                     </div>
                     <div class="col m12 s4">
                         <br class="hide-on-small-only">
-                        <h6 class="white-text font-body hide-on-small-only">Telefóno</h6>
+                        <h6 class="white-text font-body hide-on-small-only">@lang('home.form-tel')</h6>
                         <hr class="hide-on-small-only" style="border: 1px solid #fff">
                         <br>
                         <div class="row">
@@ -46,7 +46,7 @@
                     </div>
                     <div class="col m12 s4">
                         <br class="hide-on-small-only">
-                        <h6 class="white-text font-body hide-on-small-only">E-mail</h6>
+                        <h6 class="white-text font-body hide-on-small-only">@lang('home.form-mail')</h6>
                         <hr class="hide-on-small-only" style="border: 1px solid #fff">
                         <br>
                         <div class="row">
@@ -67,27 +67,27 @@
         </div>
         <div class="col m8 s12 white container-contact">
             <div class="container90">
-                <h3 class="azul-text font-fgb center">Póngase en contacto</h3>
+                <h3 class="azul-text font-fgb center">@lang('home.form-contacto')</h3>
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s12">
-                            <input placeholder="Nombre" type="text" class="validate">
+                            <input placeholder="@lang('home.form-nombre')" type="text" class="validate">
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col m4 s12">
-                            <input placeholder="Telefono" type="tel" class="validate">
+                            <input placeholder="@lang('home.form-tel')" type="tel" class="validate">
                         </div>
                         <div class="input-field col m8 s12">
-                            <input placeholder="E-mail" type="email" class="validate">
+                            <input placeholder="@lang('home.form-mail')" type="email" class="validate">
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <textarea placeholder="Mensaje" id="textarea1" class="materialize-textarea"></textarea>
+                            <textarea placeholder="@lang('home.form-msg')" id="textarea1" class="materialize-textarea"></textarea>
                         </div>
                     </div>
-                    <button class="btn btn-large azul white-text">Enviar</button>
+                    <button class="btn btn-large azul white-text">@lang('home.form-enviar')</button>
                 </form>
             </div>
         </div>
